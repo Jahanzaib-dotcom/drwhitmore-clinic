@@ -318,6 +318,46 @@ tr:hover td{background:#FAFAFA}
 /* scroll animations */
 .reveal{opacity:0;transform:translateY(28px);transition:opacity .6s ease,transform .6s ease}
 .reveal.visible{opacity:1;transform:translateY(0)}
+/* ===== RESPONSIVE ===== */
+@media (max-width:1024px){
+  .hero{padding:40px 24px}
+  .hero-inner{grid-template-columns:1fr;gap:36px}
+  .hero h1{font-size:36px}
+  .hero-script{font-size:28px}
+  .hero-img-circle{width:300px;height:360px}
+  .qs-grid{grid-template-columns:repeat(2,1fr);padding:0 16px}
+  .reviews-grid{grid-template-columns:repeat(2,1fr)}
+  .srv-grid{grid-template-columns:repeat(2,1fr)}
+  .book-grid{grid-template-columns:1fr;gap:20px}
+  nav{padding:0 20px}
+  .nav-links{display:none}
+  .nav-actions{gap:8px}
+}
+@media (max-width:600px){
+  section{padding:40px 20px}
+  .hero{padding:32px 18px}
+  .hero-inner{gap:24px}
+  .hero h1{font-size:28px}
+  .hero-script{font-size:22px}
+  .hero-img-circle{width:220px;height:260px}
+  .qs-grid{grid-template-columns:1fr}
+  .reviews-grid{grid-template-columns:1fr}
+  .srv-grid{grid-template-columns:1fr}
+  .rev-top{flex-direction:column;gap:8px}
+  .rev-num{font-size:40px}
+  .sec-title{font-size:26px}
+  .hero-desc{max-width:100%}
+  .hero-btns{flex-direction:column}
+  .hero-btn-wa,.hero-btn-call{width:100%}
+  .book-grid{grid-template-columns:1fr}
+  .form-body .frow{grid-template-columns:1fr}
+  .frow{grid-template-columns:1fr}
+  .phone-wrap{flex-direction:row}
+  .ft-links{flex-direction:column}
+  .ft-av{width:56px;height:56px}
+  .nav-brand-text span{display:none}
+  .nav-brand-text strong{font-size:13px}
+}
 </style>
 </head>
 <body>
