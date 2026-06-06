@@ -378,6 +378,20 @@ tr:hover td{background:#FAFAFA}
   .hero-btns{flex-direction:column}
   .hero-btn-wa,.hero-btn-call{width:100%;padding:12px}
 }
+  /* Compact top navigation on small devices */
+  nav{padding:6px 12px}
+  .nav-inner{height:56px}
+  .nav-avatar{width:36px;height:36px;font-size:13px}
+  .nav-brand-text strong{font-size:13px}
+  .nav-actions{gap:8px}
+  /* Convert action buttons to circular icons to save horizontal space */
+  .nav-actions .btn-wa,
+  .nav-actions .btn-call{
+    width:44px;height:44px;padding:0;border-radius:50%;font-size:0;display:inline-flex;align-items:center;justify-content:center;box-shadow:none
+  }
+  .nav-actions .btn-wa::before{content:'📱';font-size:18px}
+  .nav-actions .btn-call::before{content:'📞';font-size:18px}
+  .nav-actions .btn-wa::after,.nav-actions .btn-call::after{display:none}
 </style>
 </head>
 <body>
