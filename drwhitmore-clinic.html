@@ -320,43 +320,63 @@ tr:hover td{background:#FAFAFA}
 .reveal.visible{opacity:1;transform:translateY(0)}
 /* ===== RESPONSIVE ===== */
 @media (max-width:1024px){
-  .hero{padding:40px 24px}
-  .hero-inner{grid-template-columns:1fr;gap:36px}
-  .hero h1{font-size:36px}
-  .hero-script{font-size:28px}
+  .hero{padding:40px 20px}
+  .hero-inner{grid-template-columns:1fr;gap:28px}
+  .hero h1{font-size:34px}
+  .hero-script{font-size:26px}
+  .hero-badge-pill{font-size:12px;padding:6px 14px}
+  .hero-desc{font-size:14px}
   .hero-img-circle{width:300px;height:360px}
-  .qs-grid{grid-template-columns:repeat(2,1fr);padding:0 16px}
-  .reviews-grid{grid-template-columns:repeat(2,1fr)}
-  .srv-grid{grid-template-columns:repeat(2,1fr)}
-  .book-grid{grid-template-columns:1fr;gap:20px}
-  nav{padding:0 20px}
+  .hero-blob-bg{width:320px;height:320px;right:-80px}
+  .floating-badge{display:none}
+  .qs-grid{grid-template-columns:repeat(2,1fr);padding:0 12px;gap:12px}
+  .qs-card{padding:18px}
+  .qs-icon{width:48px;height:48px;font-size:22px}
+  .reviews-grid{grid-template-columns:repeat(2,1fr);gap:12px}
+  .rev-card{padding:18px}
+  .srv-grid{grid-template-columns:repeat(2,1fr);gap:12px}
+  .srv-item{padding:22px}
+  .srv-icon{font-size:26px}
+  .book-grid{grid-template-columns:1fr;gap:18px}
+  nav{padding:0 16px}
   .nav-links{display:none}
   .nav-actions{gap:8px}
 }
 @media (max-width:600px){
-  section{padding:40px 20px}
-  .hero{padding:32px 18px}
-  .hero-inner{gap:24px}
-  .hero h1{font-size:28px}
-  .hero-script{font-size:22px}
-  .hero-img-circle{width:220px;height:260px}
-  .qs-grid{grid-template-columns:1fr}
-  .reviews-grid{grid-template-columns:1fr}
-  .srv-grid{grid-template-columns:1fr}
-  .rev-top{flex-direction:column;gap:8px}
-  .rev-num{font-size:40px}
-  .sec-title{font-size:26px}
-  .hero-desc{max-width:100%}
-  .hero-btns{flex-direction:column}
-  .hero-btn-wa,.hero-btn-call{width:100%}
-  .book-grid{grid-template-columns:1fr}
+  section{padding:30px 16px}
+  .hero{padding:28px 14px}
+  .hero-inner{gap:18px}
+  .hero h1{font-size:24px}
+  .hero-script{font-size:20px}
+  .hero-badge-pill{font-size:11px;padding:6px 12px}
+  .hero-desc{font-size:14px;max-width:100%}
+  .hero-img-circle{width:200px;height:240px}
+  .hero-blob-bg{display:none}
+  .floating-badge{display:none}
+  .qs-grid{grid-template-columns:1fr;gap:10px;padding:0}
+  .qs-card{padding:16px;border-radius:12px;text-align:left;display:flex;gap:12px;align-items:center}
+  .qs-icon{width:44px;height:44px;font-size:20px;flex-shrink:0}
+  .qs-card h4{font-size:15px}
+  .qs-card p{font-size:13px}
+  .reviews-grid{grid-template-columns:1fr;gap:12px}
+  .rev-card{padding:16px}
+  .rev-text{font-size:14px}
+  .srv-grid{grid-template-columns:1fr;gap:12px}
+  .srv-item{padding:18px}
+  .srv-item h3{font-size:15px}
+  .srv-icon{font-size:22px}
+  .book-grid{grid-template-columns:1fr;gap:14px}
+  .contact-card{flex-direction:column;align-items:flex-start;gap:12px}
+  .form-card{width:100%}
   .form-body .frow{grid-template-columns:1fr}
   .frow{grid-template-columns:1fr}
   .phone-wrap{flex-direction:row}
-  .ft-links{flex-direction:column}
+  .ft-links{flex-direction:column;gap:10px}
   .ft-av{width:56px;height:56px}
   .nav-brand-text span{display:none}
   .nav-brand-text strong{font-size:13px}
+  .hero-btns{flex-direction:column}
+  .hero-btn-wa,.hero-btn-call{width:100%;padding:12px}
 }
 </style>
 </head>
